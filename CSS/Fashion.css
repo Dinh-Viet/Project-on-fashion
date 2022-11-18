@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,25 +9,18 @@ body{
     font-size: 20px;
     font-family: 'Roboto',sans-serif;
     line-height: 1.5;
-    font-weight: 450;
+    background-color: #fafafa;
+    font-weight: 500;
     text-align: center;
 }
-.nav{
-    background-color: #FFFFFF;
-}
 
-.header{
-    padding: 5px 1px 1px 5px;
-    text-align: left;
-    display: flex;
-    background-color: #FFFFFF;
-}
 li{
     list-style: none;
     padding: 20px;
 }
 img{
-    max-width: 90%;
+    max-width: 100%;
+    float: left;
 }
 .container{
     float: none;
@@ -36,32 +30,28 @@ img{
 a{
     text-decoration: none;
 }
-li{
-    list-style: none;
-}
 .section{
     float: left;
     width: 100%;
+    font-size: 80%;
 }
 .container{
     float: none;
-    width: 1600px;
+    width: 1300px;
     margin: 0 auto;
 }
 .menu li{
     float: left;
-    margin-right: 43px;
+    margin-right: 20px;
+}
+.header{
+    text-align: left;
+    background-color: whitesmoke;
+}
+.nav{
+    background-color: whitesmoke;
 }
 p{
-    margin: 15px;
-    font-size: 30px;
-    color: mediumvioletred;
+    font-size: large;
+    color: deeppink;
 }
-h1{
-    font-size: 60px;
-    font-language-override: normal
-}
-
-
-
-

@@ -1,22 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    color: #2c2c2c;
-    font-size: 20px;
+    font-size: 13px;
     font-family: 'Roboto',sans-serif;
-    line-height: 1.5;
     background-color: #fafafa;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
+}
+
+div.elementor-widget-container{
+    background-image: url("../Media/nen1.png");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    height: 400px;
 }
 
 li{
     list-style: none;
-    padding: 20px;
+    padding: 15px;
 }
 img{
     max-width: 100%;
@@ -31,9 +36,8 @@ a{
     text-decoration: none;
 }
 .section{
-    float: left;
     width: 100%;
-    font-size: 80%;
+    font-size: 90%;
 }
 .container{
     float: none;
@@ -42,16 +46,33 @@ a{
 }
 .menu li{
     float: left;
-    margin-right: 20px;
+    text-align: center;
+    margin-right:33px;
 }
-.header{
+.nav{
+    background-color: #fafafa;
+    height: 72px;
+}
+.header {
     text-align: left;
     background-color: whitesmoke;
 }
-.nav{
-    background-color: whitesmoke;
+
+.elementor-widget-container{
+    font-size: larger;
 }
 p{
-    font-size: large;
-    color: deeppink;
+    font-size: small;
+}
+
+.text-wrapper {
+    text-align: center;
+}
+
+.elementor-widget-container>div {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }

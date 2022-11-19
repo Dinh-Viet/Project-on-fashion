@@ -24,8 +24,9 @@ li{
     padding: 15px;
 }
 img{
-    max-width: 100%;
+    max-width: 20%;
     float: left;
+    padding-right: 30px;
 }
 .container{
     float: none;
@@ -47,7 +48,8 @@ a{
 .menu li{
     float: left;
     text-align: center;
-    margin-right:33px;
+    margin-right:30px;
+    text-align: center;
 }
 .nav{
     background-color: #fafafa;

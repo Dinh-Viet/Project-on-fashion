@@ -3,55 +3,106 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}/* phần thân (body)*/
 body{
-    color: #2c2c2c;
     font-size: 20px;
     font-family: 'Roboto',sans-serif;
-    line-height: 1.5;
     background-color: #fafafa;
     font-weight: 500;
     text-align: center;
+    justify-content: center;
 }
 
-li{
-    list-style: none;
-    padding: 20px;
+/* phần ảnh nền background*/
+div.elementor-widget-container{
+    background-image: url("../Media/nen1.png");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    height: 400px;
+}/* phần icon (fb,twitter,tiktok...)*/
+.header {
+    display: flex;
+    height: 40px;
+    text-align: left;
+    background-color: whitesmoke;
+    letter-spacing: 4px;
+    margin-left: 20px;
 }
-img{
-    max-width: 100%;
-    float: left;
-}
-.container{
-    float: none;
-    width: 1200px;
-    margin: 0 auto;
-}
-a{
-    text-decoration: none;
+/*phần nav menu*/
+.nav {
+    background-color: #fafafa;
+    display: flex;
+    height: 65px;
+    margin-left: 10px;
+    box-sizing: border-box;
 }
 .section{
-    float: left;
     width: 100%;
     font-size: 80%;
 }
 .container{
     float: none;
-    width: 1300px;
     margin: 0 auto;
 }
+
+.container-1 {
+    width: 100%;
+    display: flex;
+    height: 30px;
+}
+
+.container-1>div:nth-child(1) {
+    width: 75%;
+
+}
+
+.container-1>div:nth-child(2) {
+    width: 25%;
+    letter-spacing: 1px;
+}
+
 .menu li{
     float: left;
-    margin-right: 20px;
+    text-align: center;
+    margin-right:20px;
 }
-.header{
-    text-align: left;
-    background-color: whitesmoke;
+
+li{
+    list-style: none;
+    padding: 15px;
 }
-.nav{
-    background-color: whitesmoke;
+img{
+    max-width: 20%;
+    float: left;
+    padding-right: 30px;
 }
-p{
-    font-size: large;
-    color: deeppink;
+
+/*phần phông chữ trong nền background*/
+
+.elementor-widget-container{
+    font-size: larger;
+}
+.elementor-widget-container>div{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.text-wrapper {
+    text-align: center;
+}
+.target{
+    font-size: 13px;
+    color: crimson;
+}
+.target1{
+    font-size: 31px;
+}
+.target2{
+    font-size: 15px;
+}
+button{
+    background: black;
+    color: white;
 }

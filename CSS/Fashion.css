@@ -47,6 +47,7 @@ div.elementor-widget-container{
 
 .container-1 {
     width: 100%;
+    padding: 10px;
     display: flex;
     height: 30px;
 }

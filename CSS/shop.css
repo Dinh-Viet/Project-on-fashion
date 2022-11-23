@@ -162,4 +162,43 @@ li.item a {
 .target{
     font-size: 35px;
 }
+* {
+    box-sizing: border-box;
+}
 
+/* tạo kiểu tìm kiếm */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: right;
+    width: 20%;
+    background: #f1f1f1;
+}
+
+/* tạo kiểu nút gửi */
+form.example button {
+    float: right;
+    width: 3%;
+    padding: 10px;
+    background: #262522;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #262522;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #988e84;
+}
+
+/* xóa phông */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+form.country{
+    width: 30%;
+}

@@ -1,0 +1,26 @@
+div.elementor-widget-container {
+    background-image: url("../Media/01ca5ec396be5314e2d8d485cda5b389.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+}
+.elementor-widget-container{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+    font-family: "Times New Roman";
+}
+.colection{
+    text-align: right;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+    float: right;
+}
+.colection>h1{
+    color: black;
+
+}

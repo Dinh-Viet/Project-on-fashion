@@ -75,9 +75,9 @@ li{
     padding: 15px;
 }
 img{
-    max-width: 20%;
+    max-width: 100%;
     float: left;
-    padding-right: 30px;
+    padding-left: 50px;
 }
 .sub-arrow {
     line-height: 1;
@@ -187,4 +187,37 @@ button{
     font-size: 15px;
 }
 
+/*phần đuôi footer*/
+
+.footer {
+    display: flex;
+    background: whitesmoke;
+    padding: 25px 0;
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    height: auto;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+ol{
+    font-size: 15px;
+}
+.icon-container{
+    margin: 10px;
+    letter-spacing: 4px;
+}
 

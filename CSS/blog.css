@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    background-color: #fafafa;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+}
+.header {
+    background-image: url("../Media/nenblog.webp");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    height: 300px;
+    font-size:60px;
+    text-align: center;
+    line-height: 300px;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    height: auto;
+}
+.footer {
+    display: flex;
+    background: whitesmoke;
+    padding: 25px 0;
+    text-align: center;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+ol{
+    font-size: 20px;
+}
+.icon-container{
+    margin: 10px;
+    letter-spacing: 4px;
+}

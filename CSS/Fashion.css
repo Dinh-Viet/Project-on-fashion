@@ -24,11 +24,10 @@ div.elementor-widget-container{
 }/* phần icon (fb,twitter,tiktok...)*/
 .header {
     display: flex;
-    height: 40px;
-    text-align: left;
+    height: 50px;
     background-color: whitesmoke;
     letter-spacing: 4px;
-    margin-left: 20px;
+    margin-left: -180px;
 }
 /*phần nav menu*/
 .nav {
@@ -191,17 +190,19 @@ button{
 
 /*phần đuôi footer*/
 
-.footer {
+footer {
+    width: 100%;
     display: flex;
     background: whitesmoke;
-    padding: 25px 0;
-    text-align: center;
+    padding: 25px ;
+    text-align: left;
 }
 .column {
     float: left;
-    width: 25%;
-    padding: 20px;
-    height: auto;
+    width: 23%;
+    padding: 10px;
+    margin: 20px;
+    display: block;
 }
 .row:after {
     content: "";

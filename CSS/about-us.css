@@ -3,7 +3,7 @@
 
 
 .about-main-content{
-    font-family: 'jost',sans-serif;
+    font-family: ',sans-serif;
 }
 .about-top {
     font-family: 'Cinzel',sans-serif;
@@ -25,8 +25,8 @@
 
 }
 .about-section {
-    padding: 0px 15px 0px 15px;
-    position: relative;
+    margin: 60px 0;
+    padding: 0px 15px;
 }
 .about-container {
     max-width: 1140px;
@@ -38,33 +38,16 @@
 
 .about-column {
     position: relative;
-
-
     width: 50%;
+    display: flex;
 }
 
 .about-element {
     width: 100%;
     text-align: left;
+    margin: 0 50px 0 0;
 }
-.about-widget-image img {
-    vertical-align: middle;
-    display: inline-block;
-    width: 90%;
-    max-width: 100%;
-    height: auto;
-    padding: 0px;
-    float: right;
-    background-image:  url("../Media/about-background.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
 
-}
-.about-element>p{
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.45);
-}
 h1{
     font-family: 'Cinzel', sans-serif;
     font-weight: 400;
@@ -73,7 +56,16 @@ h1{
 }
 p{
     margin: 0px;
-    font-size: 16px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+    line-height: 24px;
+    font-family: 'Jost', sans-serif;
+}
+.about-element-second{
+    margin: 10px 0;
+    display: inline-block;
+    width: 100%;
+
 }
 .about-element-flex{
     width: 50%;
@@ -117,4 +109,51 @@ p{
     border-width: 3px 3px 3px 3px;
     border-color: #D9D9D938;
 }
+.about-widget{
+    text-align: center;
+    position: relative;
+}
+.about-widget-background{
+    background-image: url(../Media/about-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.6;
+}
+.about-widget-image img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    width: 80%;
+}
 
+.about-column-33{
+    width: 33.333%;
+    position: relative;
+    display: flex;
+}
+.about-icon{
+    max-width: 100%;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+.about-icon-wrapper{
+    max-width: 100%;
+    padding: 25px 25px 22px 25px;
+    background-color: #f8f8f8;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 100% 100% 100% 100%;
+    box-shadow: -10px 0px 5px rgb(0 0 0 / 2%);
+}
+.about-element-background>h5{
+
+}
+.about-element-background{
+    max-width: 100%;
+    background-color: #f8f8f8;
+}
